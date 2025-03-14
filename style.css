@@ -7,16 +7,16 @@ body{
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: black;
+    background-color: aliceblue;
 }
 h1{
-    color: blue;
+    color: black;
 }
 
 .calculator{
-    background-color: black;
+    background-color: blueviolet;
     width: 300px;
-    border-radius: 10px;
+    border-radius: 200px;
     padding: 20px;
 
 }
@@ -26,7 +26,7 @@ h1{
     box-sizing: border-box;
     height: 70px;
     border: none;
-    border-radius: 7px;
+    border-radius: 100px;
     background-color: antiquewhite;
     text-align: right;
     font-size: 20px;
@@ -43,7 +43,7 @@ h1{
 button{
     border: none;
     height: 65px;
-    border-radius: 7px;
+    border-radius: 100px;
     font-size: 20px;
 }
 

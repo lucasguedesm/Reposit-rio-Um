@@ -12,10 +12,21 @@ function back(){
 }
 
 function result(){
-    const display = document.querySelector('#display')
-    try{
-       display.value = eval(display.value)
-    } catch{
-        display.value = 'error'
+    const display = document.querySelector('#display');
+    try {
+        console.log(display.value)
+        if (display.value.includes('%')) {
+            calcularPorcentagem(display.value);
+        } else {
+            display.value = eval(display.value);
+        }
+    } catch {
+        display.value = 'error';
     }
 }
+
+function calcularPorcentagem(valor) {
+   console.log(valor)
+}
+
+
